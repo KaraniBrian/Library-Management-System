@@ -77,9 +77,9 @@ Partial Class frmLogin
         ' 
         ' cmbRole
         ' 
-        cmbRole.Font = New Font("Segoe UI", 9.0F)
+        cmbRole.Font = New Font("Segoe UI", 9F)
         cmbRole.FormattingEnabled = True
-        cmbRole.Items.AddRange(New Object() {"""Admin""", """User"""})
+        cmbRole.Items.AddRange(New Object() {"Admin", "User"})
         cmbRole.Location = New Point(82, 191)
         cmbRole.Name = "cmbRole"
         cmbRole.Size = New Size(100, 23)
@@ -104,7 +104,7 @@ Partial Class frmLogin
         ' 
         ' lblRole
         ' 
-        lblRole.Font = New Font("Segoe UI", 12.0F)
+        lblRole.Font = New Font("Segoe UI", 12F)
         lblRole.ForeColor = Color.White
         lblRole.Location = New Point(82, 168)
         lblRole.MaximumSize = New Size(100, 30)
@@ -115,7 +115,7 @@ Partial Class frmLogin
         ' 
         ' lblPassword
         ' 
-        lblPassword.Font = New Font("Segoe UI", 12.0F)
+        lblPassword.Font = New Font("Segoe UI", 12F)
         lblPassword.ForeColor = Color.White
         lblPassword.Location = New Point(82, 109)
         lblPassword.MaximumSize = New Size(100, 40)
@@ -126,7 +126,7 @@ Partial Class frmLogin
         ' 
         ' lblUsername
         ' 
-        lblUsername.Font = New Font("Segoe UI", 12.0F)
+        lblUsername.Font = New Font("Segoe UI", 12F)
         lblUsername.ForeColor = Color.White
         lblUsername.Location = New Point(82, 46)
         lblUsername.Name = "lblUsername"

@@ -39,6 +39,7 @@ Partial Class frmDashboard
         RecordsToolStripMenuItem = New ToolStripMenuItem()
         MonthlyRToolStripMenuItem = New ToolStripMenuItem()
         Label1 = New Label()
+        Panel1 = New Panel()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -62,7 +63,7 @@ Partial Class frmDashboard
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
         MenuStrip1.RenderMode = ToolStripRenderMode.Professional
-        MenuStrip1.Size = New Size(800, 24)
+        MenuStrip1.Size = New Size(1084, 24)
         MenuStrip1.TabIndex = 1
         MenuStrip1.Text = "MenuStrip1"
         ' 
@@ -164,11 +165,21 @@ Partial Class frmDashboard
         Label1.Size = New Size(0, 15)
         Label1.TabIndex = 2
         ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.DarkViolet
+        Panel1.Location = New Point(12, 78)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(306, 107)
+        Panel1.TabIndex = 3
+        ' 
         ' frmDashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        BackColor = Color.WhiteSmoke
+        ClientSize = New Size(1084, 661)
+        Controls.Add(Panel1)
         Controls.Add(Label1)
         Controls.Add(lblTitle)
         Controls.Add(MenuStrip1)
@@ -199,4 +210,5 @@ Partial Class frmDashboard
     Friend WithEvents RecordsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MonthlyRToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label1 As Label
+    Friend WithEvents Panel1 As Panel
 End Class
