@@ -1,9 +1,11 @@
 <Solution>
-  <Folder Name="/database/" />
+  <Folder Name="/database/">
+    <Project Path="Borrow_page.vb/Borrow_page.vb.vbproj" Id="b4bae143-161a-4871-9dec-e31f40164049" />
+  </Folder>
   <Folder Name="/docs/" />
   <Folder Name="/src/">
-    <Project Path="src/LibraryManagement.Core/LibraryManagement.Core.vbproj" Id="616bfe2c-18cb-4de7-91a4-afec0a809e9b" />
     <Project Path="src/Library Management System/Library Management system.vbproj" />
+    <Project Path="src/LibraryManagement.Core/LibraryManagement.Core.vbproj" Id="616bfe2c-18cb-4de7-91a4-afec0a809e9b" />
   </Folder>
   <Folder Name="/tests/" />
 </Solution>

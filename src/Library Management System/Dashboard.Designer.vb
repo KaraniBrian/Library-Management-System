@@ -40,7 +40,10 @@ Partial Class frmDashboard
         MonthlyRToolStripMenuItem = New ToolStripMenuItem()
         Label1 = New Label()
         Panel1 = New Panel()
+        btnAvailableBooks = New Button()
+        Button1 = New Button()
         MenuStrip1.SuspendLayout()
+        Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' lblTitle
@@ -167,11 +170,30 @@ Partial Class frmDashboard
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.DarkViolet
-        Panel1.Location = New Point(12, 78)
+        Panel1.BackColor = Color.Green
+        Panel1.Controls.Add(btnAvailableBooks)
+        Panel1.Location = New Point(30, 71)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(306, 107)
         Panel1.TabIndex = 3
+        ' 
+        ' btnAvailableBooks
+        ' 
+        btnAvailableBooks.Location = New Point(10, 17)
+        btnAvailableBooks.Name = "btnAvailableBooks"
+        btnAvailableBooks.Size = New Size(118, 23)
+        btnAvailableBooks.TabIndex = 0
+        btnAvailableBooks.Text = "Available Books"
+        btnAvailableBooks.UseVisualStyleBackColor = True
+        ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(29, 234)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(75, 23)
+        Button1.TabIndex = 4
+        Button1.Text = "Button1"
+        Button1.UseVisualStyleBackColor = True
         ' 
         ' frmDashboard
         ' 
@@ -179,6 +201,7 @@ Partial Class frmDashboard
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.WhiteSmoke
         ClientSize = New Size(1084, 661)
+        Controls.Add(Button1)
         Controls.Add(Panel1)
         Controls.Add(Label1)
         Controls.Add(lblTitle)
@@ -189,6 +212,7 @@ Partial Class frmDashboard
         WindowState = FormWindowState.Maximized
         MenuStrip1.ResumeLayout(False)
         MenuStrip1.PerformLayout()
+        Panel1.ResumeLayout(False)
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -211,4 +235,6 @@ Partial Class frmDashboard
     Friend WithEvents MonthlyRToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents btnAvailableBooks As Button
+    Friend WithEvents Button1 As Button
 End Class
